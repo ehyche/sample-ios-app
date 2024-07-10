@@ -11,6 +11,7 @@
 		FD6132CA2C3F076900B71992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6132C92C3F076900B71992 /* ContentView.swift */; };
 		FD6132CC2C3F076B00B71992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6132CB2C3F076B00B71992 /* Assets.xcassets */; };
 		FD6132CF2C3F076B00B71992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6132CE2C3F076B00B71992 /* Preview Assets.xcassets */; };
+		FDC8A2B52C3F2B9F00D0C384 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FDC8A2B42C3F2B9F00D0C384 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FD6132C92C3F076900B71992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD6132CB2C3F076B00B71992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6132CE2C3F076B00B71992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDC8A2B42C3F2B9F00D0C384 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		FD6132C62C3F076900B71992 /* sample-ios-app */ = {
 			isa = PBXGroup;
 			children = (
+				FDC8A2B42C3F2B9F00D0C384 /* Localizable.xcstrings */,
 				FD6132C72C3F076900B71992 /* sample_ios_appApp.swift */,
 				FD6132C92C3F076900B71992 /* ContentView.swift */,
 				FD6132CB2C3F076B00B71992 /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 			files = (
 				FD6132CF2C3F076B00B71992 /* Preview Assets.xcassets in Resources */,
 				FD6132CC2C3F076B00B71992 /* Assets.xcassets in Resources */,
+				FDC8A2B52C3F2B9F00D0C384 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

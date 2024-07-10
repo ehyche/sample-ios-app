@@ -23,21 +23,21 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("User Information") {
-                    TextField("First Name", text: $firstName)
+                Section(LocalizedStringKey("User Information")) {
+                    TextField(LocalizedStringKey("First Name"), text: $firstName)
                         .autocorrectionDisabled()
                         .autocapitalization(.none)
 
-                    TextField("Last Name", text: $lastName)
+                    TextField(LocalizedStringKey("Last Name"), text: $lastName)
                         .autocorrectionDisabled()
                         .autocapitalization(.none)
 
-                    TextField("Email", text: $emailAddress)
+                    TextField(LocalizedStringKey("Email"), text: $emailAddress)
                         .keyboardType(.emailAddress)
                         .autocorrectionDisabled()
                         .autocapitalization(.none)
 
-                    SecureField("Password", text: $password)
+                    SecureField(LocalizedStringKey("Password"), text: $password)
                 }
 
                 Section {
@@ -46,13 +46,13 @@ struct ContentView: View {
 
                         },
                         label: {
-                            Text("Submit")
+                            Text(LocalizedStringKey("Submit"))
                         }
                     )
                     .disabled(!isSubmitButtonEnabled)
                 }
             }
-            .navigationTitle("Sign Up")
+            .navigationTitle(LocalizedStringKey("Sign Up"))
         }
     }
 }
